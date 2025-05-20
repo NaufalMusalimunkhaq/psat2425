@@ -98,7 +98,7 @@ Ini adalah aplikasi web sederhana untuk membantu guru dan siswa dalam mengelola 
             > Firewall (security groups) = SSH, HTTP, HTTPS, anywhere 0.0.0.0/0
             > Advanced detail > user data
             > isi user data dengan
-            ``` sudo apt update -y
+                sudo apt update -y
                 sudo apt install -y apache2 php php-mysql libapache2-mod-php mysql-client
                 sudo rm -rf /var/www/html/{*,.*}
                 sudo git clone https://github.com/paknux/crudsiswa.git /var/www/html
@@ -107,7 +107,6 @@ Ini adalah aplikasi web sederhana untuk membantu guru dan siswa dalam mengelola 
                 echo DB_PASS=(password)  >> /var/www/html/.env
                 echo DB_NAME=(database)  >> /var/www/html/.env
                 echo DB_HOST=(endpoint rds) >> /var/www/html/.env
-            ```
             > lalu 'Launch instance'
 
     - connect ke instance dengan klik 'instance' lalu 'connect'
